@@ -1,0 +1,18 @@
+[11:14:41] [main/INFO]: Setting user: Player413
+[11:14:43] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:14:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
+[11:14:50] [Sound Library Loader/INFO]: Sound engine started
+[11:14:52] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:14:52] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:14:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
+[11:14:52] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:14:52] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:14:53] [Sound Library Loader/INFO]: Sound engine started
+[11:14:58] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[11:14:58] [Server thread/INFO]: Generating keypair
+[11:14:59] [Server thread/INFO]: Preparing start region for level 0
+[11:15:00] [Server thread/INFO]: Changing view distance to 12, from 10
+[11:15:00] [Server thread/INFO]: Player413[local:E:c96015a6] logged in with entity id 157 at (-786.9071117970095, 24.0, 839.4734133882439)
+[11:15:00] [Server thread/INFO]: Player413 joined the game
+[11:15:58] [Server thread/INFO]: Player413 has just earned the achievement [Taking Inventory]
+[11:15:58] [Client thread/INFO]: [CHAT] Player413 has just earned the achievement [Taking Inventory]
