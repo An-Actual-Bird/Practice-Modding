@@ -1,0 +1,107 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 11/23/14 4:13 PM
+Description: Unexpected error
+
+java.lang.NullPointerException: Unexpected error
+	at com.anactualbird.letsmodreboot.item.ItemLightningWand.onItemRightClick(ItemLightningWand.java:40)
+	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:164)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.sendUseItem(PlayerControllerMP.java:430)
+	at net.minecraft.client.Minecraft.func_147121_ag(Minecraft.java:1546)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:2033)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1028)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:951)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78)
+	at GradleStart.main(GradleStart.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.anactualbird.letsmodreboot.item.ItemLightningWand.onItemRightClick(ItemLightningWand.java:40)
+	at net.minecraft.item.ItemStack.useItemRightClick(ItemStack.java:164)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.sendUseItem(PlayerControllerMP.java:430)
+	at net.minecraft.client.Minecraft.func_147121_ag(Minecraft.java:1546)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['CameronSquirrel'/308, l='MpServer', x=298.13, y=5.62, z=-1168.39]]
+	Chunk stats: MultiplayerChunkCache: 90, 90
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (52,4,-1296), Chunk: (at 4,0,0 in 3,-81; contains blocks 48,0,-1296 to 63,255,-1281), Region: (0,-3; contains chunks 0,-96 to 31,-65, blocks 0,0,-1536 to 511,255,-1025)
+	Level time: 42186 game time, 6000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 65 total; [EntityItem['item.tile.dirt.default'/274, l='MpServer', x=238.84, y=3.13, z=-1196.25], EntityItem['item.tile.dirt.default'/273, l='MpServer', x=236.88, y=3.13, z=-1196.81], EntityItem['item.tile.dirt.default'/272, l='MpServer', x=239.25, y=1.13, z=-1184.59], EntityItem['item.tile.dirt.default'/279, l='MpServer', x=243.13, y=3.13, z=-1203.13], EntityItem['item.tile.dirt.default'/278, l='MpServer', x=251.88, y=2.13, z=-1205.25], EntityItem['item.tile.dirt.default'/277, l='MpServer', x=254.78, y=4.13, z=-1200.97], EntityItem['item.tile.dirt.default'/283, l='MpServer', x=244.13, y=1.13, z=-1185.63], EntityItem['item.tile.dirt.default'/282, l='MpServer', x=241.13, y=1.13, z=-1186.16], EntityItem['item.tile.dirt.default'/281, l='MpServer', x=246.97, y=1.13, z=-1184.88], EntityItem['item.tile.dirt.default'/280, l='MpServer', x=246.19, y=3.13, z=-1204.88], EntityItem['item.tile.dirt.default'/287, l='MpServer', x=244.78, y=2.13, z=-1199.91], EntityItem['item.tile.dirt.default'/286, l='MpServer', x=245.53, y=1.13, z=-1185.13], EntityItem['item.tile.dirt.default'/285, l='MpServer', x=252.81, y=1.13, z=-1189.56], EntityItem['item.tile.dirt.default'/284, l='MpServer', x=252.88, y=1.13, z=-1187.22], EntityItem['item.tile.dirt.default'/305, l='MpServer', x=254.94, y=1.13, z=-1177.38], EntityItem['item.tile.dirt.default'/304, l='MpServer', x=252.78, y=1.13, z=-1182.69], EntityItem['item.tile.dirt.default'/307, l='MpServer', x=253.59, y=1.13, z=-1183.69], EntityItem['item.tile.dirt.default'/306, l='MpServer', x=255.53, y=1.13, z=-1179.81], EntityItem['item.tile.dirt.default'/309, l='MpServer', x=293.88, y=2.13, z=-1176.47], EntityItem['item.tile.dirt.default'/311, l='MpServer', x=293.53, y=-8.22, z=-1154.88], EntitySlime['Slime'/310, l='MpServer', x=288.97, y=4.00, z=-1179.40], EntityClientPlayerMP['CameronSquirrel'/308, l='MpServer', x=298.13, y=5.62, z=-1168.39], EntitySlime['Slime'/312, l='MpServer', x=297.16, y=1.71, z=-1155.90], EntityItem['item.tile.dirt.default'/315, l='MpServer', x=289.66, y=-8.22, z=-1140.03], EntitySlime['Slime'/314, l='MpServer', x=316.48, y=3.48, z=-1164.46], EntitySlime['Slime'/317, l='MpServer', x=306.93, y=1.71, z=-1141.57], EntityItem['item.tile.dirt.default'/316, l='MpServer', x=294.97, y=-8.22, z=-1144.13], EntityItem['item.tile.dirt.default'/319, l='MpServer', x=299.03, y=-8.22, z=-1195.59], EntityItem['item.tile.dirt.default'/318, l='MpServer', x=298.56, y=-8.22, z=-1199.13], EntityItem['item.tile.dirt.default'/288, l='MpServer', x=254.19, y=1.13, z=-1189.38], EntityItem['item.tile.dirt.default'/289, l='MpServer', x=253.94, y=1.13, z=-1196.25], EntityItem['item.tile.dirt.default'/290, l='MpServer', x=240.13, y=2.13, z=-1191.13], EntityItem['item.tile.dirt.default'/291, l='MpServer', x=249.41, y=1.13, z=-1188.16], EntityItem['item.tile.dirt.default'/292, l='MpServer', x=250.25, y=1.13, z=-1194.72], EntityItem['item.tile.dirt.default'/293, l='MpServer', x=250.59, y=1.13, z=-1188.50], EntityItem['item.tile.dirt.default'/294, l='MpServer', x=244.38, y=1.13, z=-1187.34], EntityItem['item.tile.dirt.default'/295, l='MpServer', x=245.00, y=1.13, z=-1197.16], EntityItem['item.tile.dirt.default'/296, l='MpServer', x=243.59, y=1.13, z=-1184.22], EntityItem['item.tile.dirt.default'/297, l='MpServer', x=240.84, y=3.13, z=-1198.00], EntityItem['item.tile.dirt.default'/298, l='MpServer', x=240.88, y=3.13, z=-1189.50], EntityItem['item.tile.dirt.default'/299, l='MpServer', x=247.69, y=1.13, z=-1188.19], EntityItem['item.tile.dirt.default'/300, l='MpServer', x=241.78, y=2.13, z=-1191.13], EntityItem['item.tile.dirt.default'/301, l='MpServer', x=251.91, y=1.13, z=-1178.16], EntityItem['item.tile.dirt.default'/302, l='MpServer', x=248.72, y=1.13, z=-1180.69], EntityItem['item.tile.dirt.default'/303, l='MpServer', x=249.88, y=1.13, z=-1178.97], EntitySlime['Slime'/343, l='MpServer', x=320.84, y=1.73, z=-1236.40], EntitySlime['Slime'/342, l='MpServer', x=272.86, y=-0.04, z=-1238.99], EntitySlime['Slime'/339, l='MpServer', x=374.54, y=1.71, z=-1160.84], EntitySlime['Slime'/338, l='MpServer', x=352.23, y=3.55, z=-1206.19], EntitySlime['Slime'/337, l='MpServer', x=338.69, y=1.71, z=-1216.03], EntitySlime['Slime'/345, l='MpServer', x=377.09, y=1.71, z=-1197.26], EntitySlime['Slime'/326, l='MpServer', x=344.03, y=1.71, z=-1152.97], EntityItem['item.tile.dirt.default'/327, l='MpServer', x=288.34, y=-8.22, z=-1115.88], EntitySlime['Slime'/324, l='MpServer', x=327.42, y=1.71, z=-1148.14], EntityItem['item.tile.dirt.default'/325, l='MpServer', x=256.53, y=-9.22, z=-1188.84], EntitySlime['Slime'/322, l='MpServer', x=304.06, y=1.71, z=-1185.47], EntitySlime['Slime'/323, l='MpServer', x=334.10, y=1.71, z=-1142.90], EntitySlime['Slime'/320, l='MpServer', x=326.06, y=3.55, z=-1165.07], EntityItem['item.tile.dirt.default'/321, l='MpServer', x=288.88, y=-8.22, z=-1124.13], EntitySlime['Slime'/334, l='MpServer', x=306.23, y=3.99, z=-1219.63], EntityItem['item.tile.dirt.default'/330, l='MpServer', x=285.88, y=-8.22, z=-1110.06], EntitySlime['Slime'/331, l='MpServer', x=336.56, y=3.65, z=-1170.04], EntityItem['item.tile.dirt.default'/328, l='MpServer', x=291.22, y=-8.22, z=-1114.88], EntityItem['item.tile.dirt.default'/329, l='MpServer', x=289.06, y=-8.22, z=-1114.75], EntitySlime['Slime'/252, l='MpServer', x=239.91, y=4.00, z=-1235.06]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:415)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2555)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:980)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78)
+	at GradleStart.main(GradleStart.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.7.0_71, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 720628240 bytes (687 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.85.1230 Minecraft Forge 10.13.2.1230 4 mods loaded, 4 mods active
+	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	FML{7.10.85.1230} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.2.1230.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Forge{10.13.2.1230} [Minecraft Forge] (forgeSrc-1.7.10-10.13.2.1230.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	LetsModReboot{1.7.10-1.0} [Let's Mod Reboot] (LetsModReboot) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: GeForce GTX 550 Ti/PCIe/SSE2 GL version 4.4.0, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)
