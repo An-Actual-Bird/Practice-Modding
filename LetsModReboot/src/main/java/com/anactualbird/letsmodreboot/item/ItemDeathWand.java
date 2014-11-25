@@ -38,7 +38,7 @@ public class ItemDeathWand extends ItemLMRB
 
         float f = 1.0F;
 
-        EntityArrow entityarrow = new EntityArrow(world, player, f * 100.0F);
+        EntityArrow entityarrow = new EntityArrow(world, player, f * 200.0F);
 
         entityarrow.setIsCritical(true);
         entityarrow.setDamage(entityarrow.getDamage() + (double) 1 * 0.5D + 0.5D);
