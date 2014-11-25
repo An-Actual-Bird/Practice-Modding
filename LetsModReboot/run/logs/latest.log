@@ -1,45 +1,26 @@
-[21:08:24] [main/INFO]: Logging in with username & password
-[21:08:29] [main/INFO]: Setting user: CameronSquirrel
-[21:08:30] [Client thread/INFO]: LWJGL Version: 2.9.1
-[21:08:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
-[21:08:37] [Sound Library Loader/INFO]: Sound engine started
-[21:08:38] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:08:38] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[21:08:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
-[21:08:39] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[21:08:39] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:08:40] [Sound Library Loader/INFO]: Sound engine started
-[21:08:44] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[21:08:44] [Server thread/INFO]: Generating keypair
-[21:08:45] [Server thread/INFO]: Preparing start region for level 0
-[21:08:46] [Server thread/INFO]: Changing view distance to 12, from 10
-[21:08:46] [Server thread/INFO]: CameronSquirrel[local:E:e6faf44a] logged in with entity id 215 at (151.73706973884032, 15.353404150881895, -1341.5224352436105)
-[21:08:46] [Server thread/INFO]: CameronSquirrel joined the game
-[21:08:55] [Server thread/INFO]: [CameronSquirrel: Set the time to 1000]
-[21:08:55] [Client thread/INFO]: [CHAT] Set the time to 1000
-[21:08:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:piston
-[21:09:01] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:piston
-[21:09:16] [Server thread/INFO]: [CameronSquirrel: Set the time to 13000]
-[21:09:16] [Client thread/INFO]: [CHAT] Set the time to 13000
-[21:09:27] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:piston
-[21:09:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:piston
-[21:09:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:piston
-[21:09:31] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:piston
-[21:09:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:piston
-[21:10:05] [Server thread/INFO]: Saving and pausing game...
-[21:10:05] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
-[21:10:05] [Server thread/INFO]: Saving chunks for level 'test'/Nether
-[21:10:05] [Server thread/INFO]: Saving chunks for level 'test'/The End
-[21:10:28] [Server thread/INFO]: Saving and pausing game...
-[21:10:28] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
-[21:10:28] [Server thread/INFO]: Saving chunks for level 'test'/Nether
-[21:10:28] [Server thread/INFO]: Saving chunks for level 'test'/The End
-[21:12:00] [Client thread/INFO]: Stopping!
-[21:12:00] [Server thread/INFO]: Stopping server
-[21:12:00] [Server thread/INFO]: Saving players
-[21:12:00] [Server thread/INFO]: Saving worlds
-[21:12:00] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
-[21:12:00] [Server thread/INFO]: Saving chunks for level 'test'/Nether
-[21:12:00] [Server thread/INFO]: Saving chunks for level 'test'/The End
-[21:12:00] [Client Shutdown Thread/INFO]: Stopping server
-[21:12:00] [Client Shutdown Thread/INFO]: Saving players
+[20:28:48] [main/INFO]: Logging in with username & password
+[20:28:53] [main/INFO]: Setting user: CameronSquirrel
+[20:28:55] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:29:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
+[20:29:02] [Sound Library Loader/INFO]: Sound engine started
+[20:29:03] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:29:04] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:29:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod Reboot
+[20:29:04] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:29:04] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:29:05] [Sound Library Loader/INFO]: Sound engine started
+[20:29:10] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[20:29:10] [Server thread/INFO]: Generating keypair
+[20:29:47] [Server thread/INFO]: Preparing start region for level 0
+[20:29:48] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:29:48] [Server thread/INFO]: CameronSquirrel[local:E:f7415255] logged in with entity id 409 at (150.20151743087183, 51.48018616578374, -1342.943304482507)
+[20:29:48] [Server thread/INFO]: CameronSquirrel joined the game
+[20:30:14] [Client thread/INFO]: Stopping!
+[20:30:14] [Server thread/INFO]: Stopping server
+[20:30:14] [Server thread/INFO]: Saving players
+[20:30:14] [Server thread/INFO]: Saving worlds
+[20:30:14] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
+[20:30:14] [Server thread/INFO]: Saving chunks for level 'test'/Nether
+[20:30:14] [Server thread/INFO]: Saving chunks for level 'test'/The End
+[20:30:14] [Client Shutdown Thread/INFO]: Stopping server
+[20:30:14] [Client Shutdown Thread/INFO]: Saving players

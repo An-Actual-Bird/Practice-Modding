@@ -1,6 +1,6 @@
 package com.anactualbird.letsmodreboot.init;
 
-import com.anactualbird.letsmodreboot.item.ItemCrossBow;
+import com.anactualbird.letsmodreboot.item.ItemDeathWand;
 import com.anactualbird.letsmodreboot.item.ItemLMRB;
 import com.anactualbird.letsmodreboot.item.ItemLightningWand;
 import com.anactualbird.letsmodreboot.item.ItemMapleLeaf;
@@ -11,13 +11,13 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class ModItems
 {
     public static final ItemLMRB mapleLeaf = new ItemMapleLeaf();
-    public static final ItemLMRB crossBow = new ItemCrossBow();
+    public static final ItemLMRB deathWand = new ItemDeathWand();
     public static final ItemLMRB lightningWand = new ItemLightningWand();
 
     public static void init()
     {
         GameRegistry.registerItem(mapleLeaf, "mapleLeaf");
-        GameRegistry.registerItem(crossBow, "crossBow");
+        GameRegistry.registerItem(deathWand, "deathWand");
         GameRegistry.registerItem(lightningWand, "lightningWand");
     }
 }
