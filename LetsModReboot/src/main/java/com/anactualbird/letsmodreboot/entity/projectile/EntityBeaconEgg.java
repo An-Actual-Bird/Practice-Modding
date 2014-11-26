@@ -41,13 +41,16 @@ public class EntityBeaconEgg extends EntityThrowable
             int x = (int) this.posX;
             int y = (int) this.posY;
             int z = (int) this.posZ;
-            for (int stack = -3; stack < 3; stack++)
+            int size = 4;
+            size = size /2;
+            for (int stack = -size; stack <= size; stack++)
             {
-                for (int stack1 = -3; stack1 < 3; stack1++)
+                for (int stack1 = -size; stack1 <= size; stack1++)
                 {
-                    for (int stack2 = -3; stack2 < 3; stack2++)
+                    for (int stack2 = -size; stack2 <= size; stack2++)
                     {
-                        worldObj.setBlock(x + stack, y + stack1, z + stack2, Blocks.glowstone);
+                        worldObj.setBlock(x + stack, y + stack1, z + stack2, Blocks.sand);
+
                     }
                 }
             }

@@ -11,6 +11,7 @@ public class ModItems
     public static final ItemLMRB deathWand = new ItemDeathWand();
     public static final ItemLMRB lightningWand = new ItemLightningWand();
     public static final ItemLMRB beaconEgg = new ItemBeaconEgg();
+    public static final ItemLMRB teleportWand = new ItemTeleportWand();
 
     public static void init()
     {
@@ -18,5 +19,6 @@ public class ModItems
         GameRegistry.registerItem(deathWand, "deathWand");
         GameRegistry.registerItem(lightningWand, "lightningWand");
         GameRegistry.registerItem(beaconEgg, "beaconEgg");
+        GameRegistry.registerItem(teleportWand, "teleportWand");
     }
 }
